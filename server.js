@@ -1,7 +1,7 @@
 var http = require('http');
 
-var hostname =  process.env.IP || 'localhost';
-var port =  process.env.PORT || 3000;
+var hostname =  'node-oleksandrstarov.rhcloud.com' || 'localhost';
+var port =  80 || 3000;
 
 var server = http.createServer(function(req, res){
   console.log(req.headers);
