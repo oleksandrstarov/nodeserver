@@ -1,0 +1,27 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "test node server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksandrstarov/nodeserver.git"
+  },
+  "keywords": [
+    "test",
+    "node",
+    "server"
+  ],
+  "author": "OS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleksandrstarov/nodeserver/issues"
+  },
+  "homepage": "https://github.com/oleksandrstarov/nodeserver#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
