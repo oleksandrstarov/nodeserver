@@ -1,7 +1,7 @@
 var http = require('http');
 
-var hostname =  'node-oleksandrstarov.rhcloud.com' || 'localhost';
-var port =  80 || 3000;
+var hostname =  process.env.OPENSHIFT_NODEJS_IP || 'localhost';
+var port =  process.env.OPENSHIFT_NODEJS_PORT || 3000;
 
 var server = http.createServer(function(req, res){
   console.log(req.headers);
